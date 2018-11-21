@@ -15,6 +15,7 @@ print("a*b =",a*b)
 
 ###########################################################################################
 
+b = b.T
 print("a matrix multiplication with b =",a@b)		# @ operator, works in python >=3.5
 print("a matrix multiplication with b =",a.dot(b))	# drop method. same as np.dot(a,b)
 # np.matmul(a,b) will also do the same thing
